@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
 
 .top{
 background-image: url(img/Rectangle1.jpg);
@@ -20,7 +24,6 @@ flex-direction: column;
     align-items: center;
     color: #FFFFFF;
     padding-top: 217px;
-    padding-left: 120px;
 }
 
 .heading2{
@@ -32,7 +35,6 @@ line-height: 32px;
 display: flex;
 align-items: center;
 color: #FFFFFF;
-padding-left: 120px;
 margin-top: 32px;
 }
 
@@ -40,7 +42,6 @@ margin-top: 32px;
     position: absolute;
     width: 234.06px;
     height: 48.6px;
-    left: 120px;
     top: 482.11px;
     background: #9C0332;
     border-radius: 30px;
