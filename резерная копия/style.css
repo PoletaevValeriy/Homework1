@@ -49,11 +49,6 @@
   color: #FFFFFF;
 }
 
-.btm:hover {
-  text-decoration: underline;
-  transform: scale(1.05);
-}
-
 .for_box {
   background-image: url(img/Rectangle5.jpg);
   height: 558px;
@@ -72,12 +67,6 @@
   align-items: center;
   color: #FFFFFF;
   grid-column: span 4;
-  text-decoration: none;
-}
-
-.for_item:hover {
-  text-decoration: underline;
-  transform: scale(1.05);
 }
 
 .for_item_1 {
@@ -101,7 +90,7 @@
   padding-bottom: 32px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -116,32 +105,5 @@
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-  }
-  .heading2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .btm {
-    margin-top: 32px;
-    margin-left: 70px;
-  }
-  .for_box {
-    display: flex;
-    flex-direction: column;
-  }
-  .for_item {
-    width: 343x;
-    height: 300px;
-    left: 16px;
-    top: 863px;
-    display: flex;
-    align-items: flex-end;
   }
 }/*# sourceMappingURL=style.css.map */

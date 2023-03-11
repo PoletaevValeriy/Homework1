@@ -48,10 +48,6 @@ margin-top: 32px;
     color: #FFFFFF;
 }
 
-.btm:hover
-{text-decoration: underline;
-    transform: scale(1.05);}
-
 .for_box{
     background-image: url(img/Rectangle5.jpg);
     height: 558px;
@@ -70,12 +66,7 @@ margin-top: 32px;
     align-items: center;
     color: #FFFFFF;
     grid-column: span 4;
-    text-decoration: none;
 }
-
-.for_item:hover
-{text-decoration: underline;
-    transform: scale(1.05);}
 
 
 .for_item_1{
@@ -99,4 +90,4 @@ margin-top: 32px;
     padding-bottom: 32px;
 }
 
-@import 'mobile';
+@import 'mobile'
