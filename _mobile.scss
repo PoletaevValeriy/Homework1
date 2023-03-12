@@ -1,0 +1,52 @@
+@media (max-width: 376px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .heading1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;}
+
+.heading2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btm{
+    margin-top: 32px;
+    margin-left: 70px;
+
+}
+
+.for_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.for_item{
+    width: 343x;
+    height: 300px;
+    left: 16px;
+    top: 863px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+}
