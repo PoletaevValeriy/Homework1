@@ -26,34 +26,3 @@ if (month === '1') {alert('Январь. Зима');
 }
 else if(month === '3') {alert('Март. Веста');
     
-}
-else if(month === '4') {alert('Апрель. Веста ');
-    
-}
-else if(month === '5') {alert('Май. Веста');
-    
-}
-else if(month === '6') {alert('Июнь. Лето');
-    
-}
-else if(month === '7') {alert('Июль. Лето');
-    
-}
-else if(month === '8') {alert('Август. Лето');
-    
-}
-else if(month === '9') {alert('Сентябрь. Осень');
-    
-}
-else if(month === '10') {alert('Октябрь. Осень');
-    
-}
-else if(month === '11') {alert('Ноябрь. Осень');
-    
-}
-else if(month === '12') {alert('Декабрью Зима');
-    
-}
-else  {alert('Такого месяца не существует!'); 
-    
-}
