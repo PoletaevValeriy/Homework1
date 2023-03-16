@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,8 +21,48 @@
         <a class="for_item for_item_2 " href="#">Игра 2</a>
         <a class="for_item for_item_3 " href="#">Игра 3</a>
     </div>
+    <div class="footer center">
+        <div class="game">
+        <h3 class="footer__heading">Времена года!</h3>
+        <p class="footer__Paragraph">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+        <button onclick="prompt('Введите номер месяца')
+        switch (month) {
+            case `1`:
+            case `2`:
+            case `12`:
+                alert(`Зима`)
+                break;
+        
+            case `3`:
+            case `4`:
+            case `5`:
+                alert(`Весна`)
+                break;
+        
+            case `6`:
+            case `7`:
+            case `8`:
+                alert(`Лето`)
+                break;
+        
+            case `9`:
+            case `10`:
+            case `11`:
+                alert(`Осень`)
+                break;
+                
+        
+            default:
+                alert(`Запрос не корректен`)
+                break};" class="footer__btn">Играть!</button>
+    </div>
+        <div class="footer__img">
+        <img class="img" src="img/Rectangle71.png" alt="Подвал">
+    </div>
+    </div>
     <script src="./index.js"></script>
     <script src="./index2.js"></script> 
     <script src="./index3.js"></script>
+<script src="./index4.js"></script>
 </body>
 </html>

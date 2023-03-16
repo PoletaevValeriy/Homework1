@@ -4,7 +4,7 @@ enterThePassword = enterThePassword.toLowerCase(); //на случай ввод�
 (enterThePassword === 'пароль') ? alert('Пароль введен верно') : alert('Неверный пароль'); // Задание 1
 
 let c= 2;
-(c>0 && c<10) ? alert('Верно') : console.log('Неверно'); // Задание 2
+(c>0 && c<10) ? alert('Верно') : alert('Неверно'); // Задание 2
 
 let d= 282;
 let e= 23;
@@ -20,9 +20,33 @@ b=Number(3);
 alert(u+b); // Задание 4
 
 let month = prompt('Введите номер месяца')
-if (month === '1') {alert('Январь. Зима');
-    } else if(month === '2') {alert('Февраль. Зима');
-    
-}
-else if(month === '3') {alert('Март. Веста');
-    
+switch (month) {
+    case `1`:
+    case `2`:
+    case `12`:
+        alert(`Зима`)
+        break;
+
+    case `3`:
+    case `4`:
+    case `5`:
+        alert(`Весна`)
+        break;
+
+    case `6`:
+    case `7`:
+    case `8`:
+        alert(`Лето`)
+        break;
+
+    case `9`:
+    case `10`:
+    case `11`:
+        alert(`Осень`)
+        break;
+        
+
+    default:
+        alert(`Запрос не корректен`)
+        break;
+} // Задание 5
