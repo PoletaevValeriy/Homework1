@@ -12,12 +12,15 @@ const whitespace = array.join(' ');
 console.log(whitespace); // Задание 3
 
 
-const many = [
-    [1, 1, 1],
-    [1, 1, 1],
-    [1, 1, 1]
-];
-console.log(many); // Задание 4
+let many = []
+    for (let i = 0; i < 3; i++) {
+        many[i] = [];
+	
+	for (let j = 0; j < 3; j++) {
+		many[i].push(1);}
+    }
+
+    console.log(many); // Задание 4
 
 
 const figure = [1, 1, 1];
@@ -31,9 +34,9 @@ sorting.pop();
 console.log(sorting); // Задание 6
 
 
-let Check = [9, 8, 7, 6, 5];
+let check = [9, 8, 7, 6, 5];
 let a = Number (prompt(`Введите число от 1 до 10 для проверки`));
-let che = Check.includes(a);
+let che = check.includes(a);
 console.log(che); // Задание 7
 
 
@@ -73,4 +76,7 @@ console.log(word1); // Задание 12
 const denial = [3, 6, 12, 54, 9];
 let denial1 = denial.map(item => -item);
 console.log(denial1); // Задание 13
+
+
+
 
