@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+     {font-family: 'Montserrat'};
+
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top{
+background-image: url(img/Rectangle1.jpg);
+height: 1024px;
+display: flex;
+flex-direction: column;
+}
+
+.heading1{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 217px;
+    height: 125px;
+    width: 788px;
+}
+
+.heading2{
+    
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+margin-top: 32px;
+height: 64px;
+width: 481px;
+}
+
+.btm{
+    position: absolute;
+    width: 234px;
+    height: 48px;
+    top: 482px;
+    background: #9C0332;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.btm:hover
+{text-decoration: underline;
+    transform: scale(1.05,)};
+
+.for_box{
+    background-image: url(img/Rectangle5.jpg);
+    height: 558px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.for_item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    grid-column: span 4;
+    text-decoration: none;
+    background-size: cover;
+    height: 300px;
+    border-radius: 20px;
+    align-items: flex-end;
+}
+
+.for_item:hover
+{text-decoration: underline;
+    transform: scale(1.05);}
+
+
+.for_item_1{
+    background-image: url(img/Rectangle6.jpg);
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    }
+
+.for_item_2{
+    background-image: url(img/Rectangle7.jpg);
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.for_item_3{
+    background-image: url(img/Rectangle8.jpg);
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.footer {
+    background-image: url(img/Rectangle61.jpg);
+    height: 800px;
+    display: flex;
+   
+}
+
+.footer__heading{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+margin-top: 282px;
+margin-bottom: 32px;
+
+}
+
+.footer__Paragraph{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+width: 584px;
+margin-bottom: 32px;
+right: 736px;
+}
+
+.footer__btn{
+    background: #9C0332;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 234px;
+    height: 48px;
+}
+
+.footer__btn:hover{
+    text-decoration: underline;
+    transform: scale(1.05,)
+}
+
+.footer__img{
+    margin-top: 233px;
+    right: 116px;
+}
+
+
+@import 'mobile';
