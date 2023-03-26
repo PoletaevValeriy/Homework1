@@ -113,9 +113,18 @@ width: 481px;
 
 .footer {
     background-image: url(img/Rectangle61.jpg);
-    height: 800px;
+    height: 1600px;
     display: flex;
-   
+    flex-direction: column;
+}
+
+.theFirstGame{
+    display: flex;
+}
+
+.theSecondGame{
+    display: flex;
+    right: 135px;
 }
 
 .footer__heading{

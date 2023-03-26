@@ -113,8 +113,18 @@ body {
 
 .footer {
   background-image: url(img/Rectangle61.jpg);
-  height: 800px;
+  height: 1600px;
   display: flex;
+  flex-direction: column;
+}
+
+.theFirstGame {
+  display: flex;
+}
+
+.theSecondGame {
+  display: flex;
+  right: 135px;
 }
 
 .footer__heading {
@@ -248,5 +258,14 @@ body {
     width: 344px;
     height: 236px;
     left: 16px;
+  }
+  .theFirstGame {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 136px;
+  }
+  .theSecondGame {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
