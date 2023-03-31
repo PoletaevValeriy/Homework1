@@ -7,7 +7,7 @@ if (riddle.toUpperCase() === answer.toUpperCase()) {
 } // Задание 1
 
 
-const searchStart = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+const searchStart = (['Кошка', 'Кит', 'Комар', 'Носорог']);
 const search = 'ко';
 searchStart.forEach((searchStart) => {
     if(searchStart.toLowerCase().startsWith(search.toLowerCase())) {
@@ -28,8 +28,8 @@ let result3 = Math.round(rounding);
 console.log((result3)); // Задание 3
 
 
-const min = arr => arr.reduce((x, y) => Math.min(x, y));
-const max = arr => arr.reduce((x, y) => Math.max(x, y));
+const min = arr => Math.min(...arr);
+const max = arr => Math.max(...arr);
  
 var arr = [ 52, 53, 49, 77, 21, 32 ];
  
