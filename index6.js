@@ -89,11 +89,9 @@ alert(list);
 let d = Number(prompt('Введите чему равен первы элемент массива'));
 let i = Number(prompt('Введите чему равен второй элемент массива'));
 
-let result4;
-let result5;
-if((result4 === true) && (d === [0]) && ((result5 === true) && (i === [6]))) {console.log('Поздравляю, вы отгадали!');} 
-else if ((result4 === true) && (d === [0])) {console.log('Вы были близки к победе!');} 
-else if ((result5 === true) && (i === [6])) {console.log('Вы были близки к победе!');}
+
+if(d === list[0] &&  i === list[6]) {console.log('Поздравляю, вы отгадали!');} 
+else if (d === list[0] ||  i === list[6]) {console.log('Вы были близки к победе!');}
 else {console.log('Стоит попробовать еще раз');}
 
 
