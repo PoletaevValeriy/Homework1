@@ -5,8 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="top center">
+        <header class="header">
+            <h1 class="heading1">Добро пожаловать на мой сайт!</h1>
+    <h2 class="heading2">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и приступай</h2>
+    <button class="btm">Поехали!</button>
+        </header>
+    </div>
+    <div class="for_box center">
+        <a class="for_item for_item_1 " href="#">Игра 1</a>
+        <a class="for_item for_item_2 " href="#">Игра 2</a>
+        <a class="for_item for_item_3 " href="#">Игра 3</a>
+    </div>
+    <div class="footer center">
+        <div class="theFirstGame">
+        <div class="game">
+        <h3 class="footer__heading">Времена года!</h3>
+        <p class="footer__Paragraph">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+        <button onclick="prompt('Введите номер месяца')
+        switch (month) {
+            case `1`:
+            case `2`:
+            case `12`:
+                alert(`Зима`)
+                break;
+        
+            case `3`:
+            case `4`:
+            case `5`:
+                alert(`Весна`)
+                break;
+        
+            case `6`:
+            case `7`:
+            case `8`:
+                alert(`Лето`)
+                break;
+        
+            case `9`:
+            case `10`:
+            case `11`:
+                alert(`Осень`)
+                break;
+                
+        
+            default:
+                alert(`Запрос не корректен`)
+                break};" class="footer__btn">Играть!</button>
+    </div>
+        <div class="footer__img">
+        <img class="img" src="img/Rectangle71.png" alt="Подвал">
+    </div>
+</div>
+<div class="theSecondGame">
+    <div class="footer__img">
+        <img class="img" src="img/Rectangle72.png" alt="Подвал">
+    </div>
+        <div class="game">
+        <h3 class="footer__heading">Запомни слова</h3>
+        <p class="footer__Paragraph">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+        <button onclick = "let list = [1, 2, 3, 4, 5, 6, 7, 8, 9] ;
+        list = list.sort(() => Math.random() - 0.5);
+        alert(list);
+        
+        let d = Number(prompt('Введите чему равен первы элемент массива'));
+        let i = Number(prompt('Введите чему равен второй элемент массива'));
+        
+        let result4;
+        let result5;
+        if((result4 === true) && (d === [0]) && ((result5 === true) && (i === [6]))) {console.log('Поздравляю, вы отгадали!');} 
+        else if ((result4 === true) && (d === [0])) {console.log('Вы были близки к победе!');} 
+        else if ((result5 === true) && (i === [6])) {console.log('Вы были близки к победе!');}
+        else {console.log('Стоит попробовать еще раз');}" class="footer__btn">Играть!</button>
+    </div>
+</div>
+</div>
+<script src="./index6.js"></script>
 </body>
 </html>
